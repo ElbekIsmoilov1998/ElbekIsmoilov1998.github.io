@@ -1,0 +1,647 @@
+.container-fluid{
+    width:940px;
+    margin:0 auto;
+
+}
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+.nav{
+    text-align:center;
+    background: black;
+}
+.navbar-nav{
+    font-size:12px;
+    margin:0 auto;
+   
+}
+
+.nav-item{
+
+    border-right:0.5px dotted #f4f4f4;
+}
+
+.bor{
+    border:none;
+}
+.navbar-nav li a{
+
+    text-transform: uppercase;
+    font-size: 10px
+    text-align:center;
+    font-family: 'Roboto_reg', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    color:white;
+    text-transform: uppercase;
+}
+.nav-item:hover{
+    background:rgba(184, 189, 199, 0.3) ;
+}
+.navbar-nav li a:hover{
+    color:#ff9d00;
+}
+.logo{
+    display:inline-block;
+    height:98px;
+    line-height:98px;
+}
+.telnumber{
+    display:inline-block;
+    height:98px;
+    float:right;
+}
+.telnumber h2{
+    font-size:20px;
+    display:inline;
+    line-height:98px;
+    padding:0 2px;
+   
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .karton{
+        display:none;
+    }
+    .tel{
+        display:table;
+    
+    }
+    .logo{
+        margin:20px;
+        height:28px;
+        line-height:28px;
+    }
+    .telnumber h2{
+        
+        line-height:18px;
+    }
+    
+    .telnumber {
+        margin-top:30px;
+        padding:0 10px;
+        display:inline-block;
+    }
+  .button{
+    line-height:28px;
+  }
+    .button button{
+        padding:10px;
+    }
+.form-1 p{
+    text-align:center;
+}
+     .form-1 h2{
+        color:#ff9d00;
+        font-size:28px;
+        margin-top:-30px;
+        text-align:center;
+    }
+    .form-2{
+        text-align:center;
+        margin-bottom:30px;
+}
+.form-2 button{
+  align-self:center;
+}
+.tex h2{
+    color:#ff9d00;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.3rem;
+}
+.tex p{
+    font-weight:600;
+    text-align:center;
+    font-size:0.8rem;
+}
+
+}
+
+@media screen and (max-width: 5200px) {
+    .form-1 h2{
+    color:white;
+    }
+}
+@media screen and (max-width: 768px) {
+    .back{
+        display:none;
+    }
+    .tex {
+        font-size:20px; 
+    }
+    .tex p{
+        font-size:1.2rem;
+    }
+    .form-1 h2{
+        color:#ff9d00;
+    }
+    .back{
+        display:none;
+    }
+   
+}
+@media screen and (max-width: 576px) {
+    .form-1 h2{
+        margin-top:-60px;
+        text-align:center;
+        font-size:1.8rem;
+        color:#ff9d00;
+    }
+    .form-1 p{
+        font-size:1rem;
+        text-align:center;
+    }
+    .form-1{
+        padding-top:2px;
+    }
+    .form-2 input{
+        width:100%;
+        margin-top:4px;
+        margin-right:30px;
+        border-radius: 5px;
+        padding: 14px 20px;
+    }
+    .form-2 button{
+    margin:20px;
+    }
+    .back{
+        display:none;
+    }
+}
+
+
+
+
+
+
+.telnumber span{
+    padding:0 10px;
+    border-left:1px solid #cfcfd0;
+}
+.telnumber h2:hover{
+    color:#ff9d00;
+
+}
+.button{
+    float:right;
+    line-height:98px;
+}
+.btn{
+    background: #ff9d00;
+    font-weight:bold;
+    padding:16px 20px;
+    color:white;
+    font-size:14px;
+}
+main{
+    background-image:url("img/2.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+.main-sec{
+    background: rgba(0, 0, 0, 0.6)     !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+.karton{
+    height:400px;
+    width:400px;
+    border-radius: 100%;
+    border:2px solid #cfcfd0;
+    margin:60px 0;
+    padding:60px 0;
+}
+.karton img{
+    position: absolute;
+    left:-70px;
+    top:50px;
+}
+.form-1{
+     opacity:0.9;
+}
+.form-1 h2{
+    
+    font-size:24px;
+    padding-top:80px;
+    font-weight:bold;
+}
+.form-1 p{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+
+}
+.form-2{
+    padding:30px 25px;
+    border-radius: 5px;
+    background: rgba(184, 189, 199, 0.3) ;   /* Fallback color */
+   /* Black background with 0.5 opacity */
+}
+.form-2 p{
+     font-size:20px;
+     color:white;
+    }
+.form-2 input{
+    width:60%;
+    display:inline-block;
+    margin-top:4px;
+    border-radius: 5px;
+    padding: 14px 20px;
+}
+
+
+
+
+.center{
+    background: #f4f4f4;
+}
+
+.tex{
+    padding:5px;
+}
+
+.pre{
+    margin: 0 26px;
+}
+.tex h2{
+    color:#ff9d00;
+    text-align:center;
+    font-weight:bold;
+}
+.tex p{
+    font-weight:600;
+    text-align:center;
+}
+.nothing{
+    background: #f4f4f4;
+}
+.date{
+    margin:15px 0;
+    background: white;
+    font-size: 15px;
+   
+}
+.date img{
+    margin:44px 20px;
+    float:left;
+    display:inline-block;
+}
+.date img:hover{
+    height:60px;
+     transition: 0.5;
+     margin:40px 18px;
+}
+.date h2{
+    padding-top:30px;
+    font-size:15px;
+    font-weight:600;
+}
+.date p{
+    padding-right:20px;
+    padding-bottom:30px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .pre{
+        margin:0 10px;
+    }
+    .date{
+        margin:5px 0;
+    }
+    .bot{
+        margin-bottom:40px;
+    }
+    .pic span{
+        display:none;
+    }
+    .text{
+
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .pic {
+       
+        border-radius: 40px;
+        background: rgba(0, 0, 0, 0.01)     !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;        
+    }
+    .pic img{
+        z-index: 0;
+        padding-top:10px;
+    }
+    .bt{
+        background: #c4d4b3;
+    }
+    .bt:hover{
+        background: #9b9b9b;
+        color:white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bot{
+margin-bottom:60px;
+}
+.our{
+    padding-top:55px;
+    padding-bottom:20px;
+    text-align:center;
+    font-size:10px;
+    text-transform:uppercase;
+    font-weight:600;
+}
+.pic{
+    text-align:center;
+    margin-bottom:73px;
+    align-items:center;
+}
+.pic h2{
+    padding-top:40px;
+    font-size:19px;
+}
+.pic img {
+    height:280px;
+    padding-bottom:90px;
+    padding-top:40px;
+    transition: 0.3s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+.pic img:hover{
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(360deg);
+}
+.bt{
+    display:inline-block;
+    font-weight:bold;
+    padding:16px 20px;
+    color:#9b9b9b;
+    font-size:14px;
+    border-radius: 5px;
+    border:1px solid #9b9b9b;
+}
+.bt:hover{
+    background: #9b9b9b;
+    color:white;
+}
+.center3{
+    background-image:url("img/16.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+.essen{
+    background: rgba(0, 0, 0, 0.6)     !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.impor{
+    text-align:center;
+}
+.impor h2{
+    padding-top:50px;
+    font-size:25px;
+    color:white;
+}
+.impor span{
+ font-size:23px;
+}
+.impor p{
+    padding-top:42px;
+    font-size:19px;
+    color:#cccdcb;
+}
+.impor input{
+    display:inline-block;
+    padding:25px 123px; 
+    border-radius: 8px;   
+}
+.impor button{
+    margin:14px 0; 
+}
+.impor h4{
+    font-size:15px;
+    color:#cccdcb;
+    padding-bottom:50px;
+}
+.slider{
+    margin:88px 0;
+}
+.information{
+    margin:88px 0;
+    left:-15px;
+    position: absolute;
+}
+.information h2{
+    text-transform:uppercase;
+    background:#ff9d00;
+    padding:25px 30px;
+    font-weight:400;
+    color:white;
+    margin-top:20px;
+}
+.information p{ 
+    padding:30px ;
+    font-weight:300;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .center4{
+        margin-bottom:20rem;
+    }
+.information{
+    
+    margin-top:-2rem;
+}
+    
+}
+@media screen and (max-width: 576px) {
+    .center4{
+        margin-bottom:28rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.slider img{
+    vertical-align: middle;
+    
+}
+.container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+    text-align:center;
+    align-items:center;
+    padding:0 5px;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    width: auto;
+    padding: 36px 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .prev{
+      left:-40px;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: -30px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: #ff9d00;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 8px 12px;
+    color:#ff9d00;
+    position: absolute;
+    top: 10;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    padding: 1px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 18.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
+  .nasha h2{
+      text-align: center;
+      padding:0 0 35px 0 ;
+      font-weight:700;
+  }
+
+
+
+  .logotip{
+      margin:15px;
+      border:1px solid #e5e5e5;
+      height:130px;
+      border-radius: 10px;
+     align-content: center;
+     align-items: center;
+     line-height:130px;
+     display: flex;
+  }
+.logotip img{
+    margin:0 auto;
+   line-height:130px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
