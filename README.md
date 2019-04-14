@@ -1,2 +1,2 @@
-# ElbekIsmoilov1998.github.io
+# ElbekIsmoilov
 my projects
